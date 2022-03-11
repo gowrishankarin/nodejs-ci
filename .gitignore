@@ -1,4 +1,3 @@
-**/public
 **/.env
 *.pem
 node_modules
