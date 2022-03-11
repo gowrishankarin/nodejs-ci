@@ -1,0 +1,6 @@
+**/public
+**/.env
+*.pem
+node_modules
+client_secret_*.*
+**/data
