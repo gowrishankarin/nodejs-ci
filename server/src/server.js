@@ -104,8 +104,8 @@ const { loadLaunchData } = require("./models/launches.model");
 const { doesNotMatch } = require("assert");
 
 const credentials = {
-  key: fs.readFileSync(process.env.SSL_KEY),
-  cert: fs.readFileSync(process.env.SSL_CERT),
+  // key: fs.readFileSync(process.env.SSL_KEY),
+  // cert: fs.readFileSync(process.env.SSL_CERT),
 };
 
 const server = http.createServer(app);
